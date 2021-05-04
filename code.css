@@ -1,0 +1,227 @@
+skip_previous skip_next close
+seminar.rar
+Save to Drive save_alt Download
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url("icomoon/style.css");
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(208,150,250,0.25);
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+header {
+    width:100%;
+    padding:50px 0;
+    top:0;
+    left:0;
+    right:0;
+}
+:root {
+    font-size: 16px;
+}
+.header_container {
+    width:80%;
+    margin:auto;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_container{
+    font-weight: bold;
+    font-size:20px;
+}
+.strong-logo{
+    color: mediumseagreen;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border:3px solid  #fa872e ;
+}
+.navbar_container {
+    margin:0 12px;
+}
+.navbar_link {
+    color: black;
+    margin:0 8px;
+    font-size: 12px;
+    transition:color 200ms ease-in-out;
+}
+.navbar_link:hover {
+    color: darkred;
+}
+.navbar_btn {
+    background-color:mediumseagreen;
+    border:none;
+    outline:none;
+    padding:8px 16px;
+    color:white;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition:color 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.intro_section {
+    width:50%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    display: flex;
+}
+
+.intro_container {
+    width:60%;
+    max-width: 1400px;
+    padding:90px 12px 50px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:black;
+    margin:0px 70px 0px 150px  ;
+}
+.intro_header {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.strong-top-up{
+    color: #fa872e;
+}
+
+[class^="intro_text"] {
+    font-size: 1.8rem;
+}
+
+.intro_text {
+    font-size: 40px;
+    font-weight:bold;
+    margin-bottom: 16px;
+}
+
+.intro_text-italic {
+    font-style: italic;
+    font-size:16px ;
+}
+.flag-container{
+    position: absolute;
+    top: 200px;
+    left: 830px;
+}
+#container {
+    width:400px;
+    height: 400px;
+    margin: 10px auto;
+    border: 1px solid lavender;
+    position: relative;
+    border-radius: 50%;
+    animation: spin 10s linear infinite;
+}
+.item {
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    animation: spin 10s linear infinite reverse;
+    animation-delay: 200ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(1turn) scale(1,1);
+    }
+}
+
+.intro_btn {
+    background-color:mediumseagreen;
+    border:none;
+    outline:none;
+    padding:8px 16px;
+    color:white;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition:color 300ms ease-in-out;
+    cursor: pointer;
+    margin:12px 250px 0px 0px;
+
+}
+
+.intro_btn:hover {
+    background-color: orange;
+
+}
+.search{
+    border:none;
+    color:white;
+    border-radius: 20px;
+    margin:50px 50px 0px 0px;;
+    padding: 10px;
+    position: relative;
+}
+.img-search{
+    border-radius: 50%;
+    background-color: #fa872e;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 535px;
+    left: 560px;
+}
+.users{
+    position: relative;
+    display: flex;
+}
+
+.ex2{
+    position: absolute;
+    right:420px ;
+}
+.ex3{
+    position: absolute;
+    right:390px;
+}
+.ex4{
+    position: absolute;
+    right:370px;
+}
+.num{
+    font-size: 12px;
+    position: absolute;
+    left: 110px;
+    top: 15px;
+}
+.price{
+    color: #fa872e;
+}
+.intro_container2{
+   position: relative;
+}
+
+.round{
+    background-color: mediumseagreen;
+    border-radius:50%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+
+}
+.girl{
+    position: absolute;
+    top: 90px;
+
+}

@@ -1,0 +1,98 @@
+\
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Global</title>
+    <link rel="stylesheet" href="code.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>`
+</head>
+<body>
+<header>
+    <div class="header_container">
+            <span class="logo_container">
+                <i><strong class="strong-logo">G</strong>Global</i>
+            </span>
+        <nav class="navbar_container">
+            <a href="#" class="navbar_link">Mobile Top Up</a>
+            <a href="#" class="navbar_link">About</a>
+            <a href="#" class="navbar_link">Rate</a>
+            <a href="#" class="navbar_link">Help</a>
+        </nav>
+        <button class="navbar_btn">Sign up</button>
+    </div>
+</header>
+
+<section class="intro_section">
+    <div class="intro_container">
+        <span class="intro_header">Now Buy Your PIN or<strong class="strong-top-up"> Top Up</strong></span>
+        <span class="intro_text">With Bank Transfer </span>
+        <span class="intro_text-italic">We Make international calling simple, relible, and cheap basedon your unique calling behavior.</span>
+        <button class="intro_btn">Get Started</button>
+        <input  class="search" type="text" placeholder="Where do you want to call?" name="search">
+        <div class="img-search"><img src="images/search.png"></div>
+        <div class="users">
+            <img src="images/ex2%20(1).png">
+            <img  class="ex2" src="images/ex2%20(2).png">
+            <img  class="ex3" src="images/ex3.png">
+            <img  class="ex4" src="images/ex4.png">
+            <span class="num">45k+ Regular User.<strong class="price"> View Price Plan</strong></span>
+        </div>
+    </div>
+    <div class="flag-container">
+    <div id="container">
+        <div class="item" style="left: 185px; top: 85px;">
+            <img src="images/ellipse3.png" >
+        </div>
+        <div class="item" style="left: 135px; top: 172px;">
+            <img src="images/ellipse2.png">
+        </div>
+        <div class="item" style="left: 35px; top: 172px;">
+            <img src="images/ellipse1.png">
+        </div>
+        <div class="item" style="left: -15px; top: 85px;">
+            <img src="images/ellipse1.png">
+        </div>
+        <div class="item" style="left: 35px; top: -2px;">
+            <img src="images/ellipse1.png">
+        </div>
+    </div>
+    </div>
+    <script>
+        var radius = 200; // adjust to move out items in and out
+        var fields = $('.item'),
+            container = $('#container'),
+            width = container.width(),
+            height = container.height();
+        var angle = 0,
+            step = (2 * Math.PI) / fields.length;
+        fields.each(function() {
+            var x = Math.round(width / 2 + radius * Math.cos(angle) - $(this).width() / 2);
+            var y = Math.round(height / 2 + radius * Math.sin(angle) - $(this).height() / 2);
+            if (window.console) {
+                console.log($(this).text(), x, y);
+            }
+            $(this).css({
+                left: x + 'px',
+                top: y + 'px'
+            });
+            angle += step;
+        });
+    </script>
+   <div class="intro_container2">
+        <div class="round"></div>
+
+        <img class="girl" src="images/girl.png" alt="girl" width="650px" height="450px">
+    </div>
+</section>
+
+
+
+
+
+
+
+
